@@ -1,0 +1,55 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*GENERAL*/
+body{
+    background-color: beige;
+}
+
+.title{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 150px;
+    color: black;
+}
+
+.container{
+    max-width: 900px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50px;
+}
+.info{
+    padding-top: 20px;
+}
+#btn-pull{
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    padding: 30px;
+    margin: 20px 0;
+    font-size: 30px;
+    border-radius: 20px;
+    font-weight: 900;
+}
+.h1{
+    font-size: 50px;
+    padding: 20px 0;
+}
+.result{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+#btn-pull:hover{
+    background-color: white;
+    color: red;
+}
